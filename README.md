@@ -19,6 +19,7 @@
 ### Python
 - ##### [My commands](python/python.md)
 - ##### [Virtual environment](python/virtualenv.md)
+- ##### [Precommit](python/precommit.md)
 
 ---
 ### DJango
@@ -30,5 +31,5 @@
 - ##### [My commands](nano/nano.md)
 
 ---
-## Docker
-- #### [My commands](docker/docker.md)
+### Docker
+- ##### [My commands](docker/docker.md)
