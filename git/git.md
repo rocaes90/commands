@@ -20,6 +20,14 @@ $ git push -u origin <branch-name>
 $ git push -u origin feature/OP-001
 ```
 
+##### Pull fast foward
+```
+$ git pull --rebase origin <branch>
+```
+###### Example
+```
+$ git pull --rebase origin develop
+```
 
 ##### Config alias
 ```

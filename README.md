@@ -12,8 +12,11 @@
 ---
 ### Git
 - ##### [My commands](git/git.md)
-- ##### [Adding Github key](git/addingGithubKey.md)
+- ##### [Stash](git/stash.md)
 - ##### [Aliases](git/aliases.md)
+- ##### [Patch](git/patch.md)
+- ##### [Adding Github key](git/addingGithubKey.md)
+- ##### [Configure multiple users](git/configureMultipleUsers.md)
 
 ---
 ### Python
@@ -22,15 +25,15 @@
 - ##### [Precommit](python/precommit.md)
 
 ---
-### DJango
+### Django
 - ##### [Start new project](django/startNewProject.md)
 - ##### [Start new application](django/startNewApp.md)
-
----
-### Nano
-- ##### [My commands](nano/nano.md)
 
 ---
 ### Docker
 - ##### [My commands](docker/docker.md)
 - ##### [Docker compose](docker/dockerCompose.md)
+
+---
+### Nano
+- ##### [My commands](nano/nano.md)

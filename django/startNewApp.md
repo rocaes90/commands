@@ -1,6 +1,6 @@
 [< Go Home](../README.md)
 
-#### django | how to create an application
+#### Django | how to create an application
 
 ##### Create new application
 ```

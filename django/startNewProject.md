@@ -1,6 +1,6 @@
 [< Go Home](../README.md)
 
-#### django | how to start a project
+#### Django | how to start a project
 
 ##### Creacion del virtual env
 ```
@@ -12,7 +12,7 @@ $ virtualenv -p python3 .venv
 $ source .venv/bin/activate
 ```
 
-##### Install dJANGO
+##### Install Django
 ```
 $ pip install Django==3.2.12
 ```
