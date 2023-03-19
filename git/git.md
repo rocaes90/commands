@@ -2,8 +2,7 @@
 
 ## Frecuent commands
 
-#### Update branch name
-How to rename a branch
+#### Rename a branch
 ```
 $ git branch -m <old-name> <new-name>
 ```
@@ -19,4 +18,14 @@ $ git push -u origin <branch-name>
 ###### Example
 ```
 $ git push -u origin feature/OP-001
+```
+
+
+#### Config alias
+```
+$ git config --global alias.<alias-name> "<command>"
+```
+###### Example
+```
+$ git config --global alias.s "status -sb"
 ```
