@@ -6,6 +6,7 @@
 
 - ##### [My commands](git/git.md)
 - ##### [Adding Github key](git/addingGithubKey.md)
+- ##### [Aliases](git/aliases.md)
 
 ---
 

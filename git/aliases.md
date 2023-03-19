@@ -1,4 +1,11 @@
-# aliases
+[< Go Home](../README.md)
+
+#### git | aliases
+
+##### add & commit
+```
+alias.acm=!git add -A && git commit -m
+```
 
 ##### commit
 ```

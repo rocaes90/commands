@@ -1,8 +1,8 @@
-# git
+[< Go Home](../README.md)
 
-## Frecuent commands
+#### git | Frecuent commands
 
-#### Rename a branch
+##### Rename a branch
 ```
 $ git branch -m <old-name> <new-name>
 ```
@@ -11,7 +11,7 @@ $ git branch -m <old-name> <new-name>
 $ git branch -m feature/OP-001 feature/OP-002
 ```
 
-#### Publish local repository
+##### Publish local repository
 ```
 $ git push -u origin <branch-name>
 ```
@@ -21,7 +21,7 @@ $ git push -u origin feature/OP-001
 ```
 
 
-#### Config alias
+##### Config alias
 ```
 $ git config --global alias.<alias-name> "<command>"
 ```

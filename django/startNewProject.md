@@ -1,27 +1,29 @@
-# how to start a project
+[< Go Home](../README.md)
 
-#### Creacion del virtual env
+#### django | how to start a project
+
+##### Creacion del virtual env
 ```
 $ virtualenv -p python3 .venv
 ```
 
-####
+#####
 ```
 $ source .venv/bin/activate
 ```
 
-#### Install dJANGO
+##### Install dJANGO
 ```
 $ pip install Django==3.2.12
 ```
 
-#### Create a DJango project
+##### Create a DJango project
 > important to use the "."
 ```
 $ django-admin startproject app .
 ```
 
-#### how to run the DJango server
+##### how to run the DJango server
 Verify the python version
 ```
 $ python -V

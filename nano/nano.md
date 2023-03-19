@@ -1,8 +1,8 @@
-# nano
+[< Go Home](../README.md)
 
-## Frecuent commands
+#### nano | Frecuent commands
 
-#### Create new file
+##### Create new file
 ```
 $ nano <file-name>
 ```
@@ -11,12 +11,12 @@ $ nano <file-name>
 $ nano .npmrc
 ```
 
-#### Save document
+##### Save document
 ```
 $ ctrl + O
 ```
 
-#### Exit document
+##### Exit document
 ```
 $ ctrl + X
 ```
