@@ -17,6 +17,7 @@
 - ##### [Patch](git/patch.md)
 - ##### [Adding Github key](git/addingGithubKey.md)
 - ##### [Configure multiple users](git/configureMultipleUsers.md)
+- ##### [Squash Commits and merge](git/squashCommitAndMerge.md)
 
 ---
 ### Python
