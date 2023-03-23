@@ -24,7 +24,7 @@ Create the **.npmrc** file
 $ nano .npmrc
 ```
 
-##### 3. Add values
+##### 3. Add generated token
 Subtitute the **GENERATED_TOKEN** word with the new github token
 ```
 //npm.pkg.github.com/:_authToken=GENERATED_TOKEN

@@ -34,6 +34,7 @@
 ### Docker
 - ##### [My commands](docker/docker.md)
 - ##### [Docker compose](docker/dockerCompose.md)
+- ##### [Run and Execute a DB file in a postgres container](docker/runExecuteDBFile.md)
 
 ---
 ### Nano
