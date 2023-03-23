@@ -20,6 +20,7 @@ $ nano .npmrc
 ```
 $ ctrl + O
 ```
+> click `enter` to confirm the save action
 
 ##### Exit document
 ```
