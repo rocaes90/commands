@@ -39,6 +39,11 @@ $ docker compose down
 $ docker compose run <app-name> python3 manage.py shell
 ```
 
+##### Remove all images from docker
+```
+$ docker rmi $(docker images -a -q)
+```
+
 ##### Clean unnecessary images from docker
 ```
 $ docker system prune
