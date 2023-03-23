@@ -1,4 +1,6 @@
-[< Go Home](../README.md)
+[&#8592; Go Home](../README.md)
+
+---
 
 #### docker | Frecuent commands
 

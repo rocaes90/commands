@@ -6,18 +6,18 @@
 
 ---
 ### npm
-- ##### [npm](npm/npm.md)
-- ##### [tests](npm/tests.md)
+- ##### [My commands](npm/npm.md)
+- ##### [Execute tests](npm/tests.md)
 
 ---
 ### Git
 - ##### [My commands](git/git.md)
-- ##### [Stash](git/stash.md)
-- ##### [Aliases](git/aliases.md)
-- ##### [Patch](git/patch.md)
+- ##### [How to use stash?](git/stash.md)
+- ##### [My aliases](git/aliases.md)
+- ##### [How to use patch?](git/patch.md)
 - ##### [Adding Github key](git/addingGithubKey.md)
 - ##### [Configure multiple users](git/configureMultipleUsers.md)
-- ##### [Squash Commits and merge](git/squashCommitAndMerge.md)
+- ##### [How to squash commits and merge changes?](git/squashCommitAndMerge.md)
 
 ---
 ### Python
