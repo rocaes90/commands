@@ -4,7 +4,7 @@
 
 #### Django | how to create an application
 
-##### Create new application
+##### 1. Create new application
 ```
 $ python manage.py startapp <APPLICATION_NAME>
 ```
@@ -14,23 +14,23 @@ $ python manage.py startapp <APPLICATION_NAME>
 $ python manage.py startapp polls
 ```
 
-##### Activate virtualenv
+##### 2. Activate virtualenv
 ```
 source .venv/bin/activate
 ```
 
-##### Install Django
+##### 3. Install Django
 ```
 pip install Django==3.2.12
 ```
 
-##### Create a DJango project
+##### 4. Create a DJango project
 > important to use the "."
 ```
 django-admin startproject app .
 ```
 
-##### how to run the DJango server
+##### 5. How to run the DJango server
 Verify the python version
 ```
 python -V

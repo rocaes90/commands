@@ -4,6 +4,8 @@
 
 #### git | aliases
 
+---
+
 ##### add & commit
 ```
 alias.acm=!git add -A && git commit -m
@@ -99,7 +101,7 @@ alias.l30=log -30 --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%
 alias.l30=log -50 --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 ```
 
-##### display remove
+##### display remote
 ```
 alias.rv=remote -v
 ```

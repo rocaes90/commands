@@ -4,7 +4,11 @@
 
 #### be | Frecuent commands
 
-##### Run tests
+---
+
+#### Run tests in BE project
+
+##### Run tests in BE
 ```
 $ env $(cat .local.env  | xargs) pytest <APPLICATION>
 ```
@@ -14,17 +18,21 @@ $ env $(cat .local.env  | xargs) pytest <APPLICATION>
 $ env $(cat .local.env | xargs) pytest -s audit
 ```
 
-###### Example how to execute in docker
+##### How to execute in docker?
+
+###### Example
 ```
 $ docker-compose exec laika-app pytest integration/checkr/tests/test_implementation.py -s
 ```
 
-###### Example how to execute in docker one test
+##### How to execute in docker one test?
+
+###### Example
 ```
 $ docker-compose exec laika-app pytest integration/checkr/tests/test_implementation.py::test_update_laika_objects_with_checkr_data_invitation_complete -s
 ```
-
-###### Example how to execute in docker one test
+#####  How to execute coverage in docker?
+###### Example
 ```
 $ docker-compose exec laika-app coverage run -m pytest
 ```

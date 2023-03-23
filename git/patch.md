@@ -2,24 +2,27 @@
 
 ---
 
-#### git | Patch
+### git | Patch
 
-##### Create new patch
-> not commited changes
+---
+
+##### 1. Create new patch
+
+##### 1.a. Create new patch with no commited changes
 ```
 $ git diff > mypatch.patch
 ```
 
-##### Create new patch with staged changes
+##### 1.b. Create new patch with staged changes
 ```
 $ git diff --cached > mypatch.patch
 ```
->Add the 'binary' option if you want to add binary files to the patch (e.g. mp3 files):
+> Add the 'binary' option if you want to add binary files to the patch (e.g. mp3 files):
 ```
 $ git diff --cached --binary > mypatch.patch
 ```
 
-##### Apply patch
+##### 2. Apply patch
 ```
 $ git apply mypatch.patch
 ```

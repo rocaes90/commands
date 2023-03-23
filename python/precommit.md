@@ -2,7 +2,7 @@
 
 ---
 
-#### precommit | Frecuent commands
+### precommit | Frecuent commands
 
 ##### Display version
 ```

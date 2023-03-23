@@ -4,6 +4,8 @@
 
 #### git | Frecuent commands
 
+---
+
 ##### Run commmand
 ```
 npm run <command>

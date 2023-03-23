@@ -2,7 +2,9 @@
 
 ---
 
-#### git | Stash
+### git | Stash
+
+---
 
 ##### Create new stash
 ```

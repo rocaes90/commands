@@ -4,7 +4,7 @@
 
 #### git | how to add github key to project
 
-##### Steps
+---
 
 ##### 1. Adding github key for a project
 It's necessary to create a github token to access the project

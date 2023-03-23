@@ -2,7 +2,11 @@
 
 ---
 
-#### npm | Tests
+### npm | Tests
+
+---
+
+#### Run tests
 
 ##### Run one test file
 ```

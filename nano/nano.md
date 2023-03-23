@@ -2,12 +2,15 @@
 
 ---
 
-#### nano | Frecuent commands
+### nano | Frecuent commands
+
+---
 
 ##### Create new file
 ```
 $ nano <file-name>
 ```
+
 ###### Example
 ```
 $ nano .npmrc

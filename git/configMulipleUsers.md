@@ -4,7 +4,9 @@
 
 #### git | Configure multiple users
 
-Actualizar las credenciales en el archivo ‘.git/config'
+> Actualizar las credenciales en el archivo ‘.git/config'
+
+---
 
 #### Global
 
@@ -34,6 +36,8 @@ $ git config --global user.password "<user-password>"
 ```
 $ git config --global user.password "12345abcde"
 ```
+
+---
 
 #### Single repository
 

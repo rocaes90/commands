@@ -4,7 +4,7 @@
 
 #### git | Squash commits and merge
 
-##### Steps
+---
 
 ##### 1. Reset changes according to develop
 > not commited changes
