@@ -2,6 +2,7 @@
 ---
 #### docker file 
 ---
+document name should be: `Dockerfile`
 
 ##### Example
 ```
