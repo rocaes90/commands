@@ -37,7 +37,7 @@ My list of commands for different tools to improve and facilitate my day to day 
 - ##### [My commands](docker/docker.md)
 - ##### [Docker compose](docker/dockerCompose.md)
 - ##### [Run and Execute a DB file in a postgres container](docker/runExecuteDBFile.md)
-- ##### [Dockerfile](docker/dockerfile.md)
+- ##### [Dockerfile](docker/dockerfileExample.md)
 
 ---
 ### Nano
