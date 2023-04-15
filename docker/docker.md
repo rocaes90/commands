@@ -2,6 +2,7 @@
 ---
 #### docker | Frecuent commands
 ---
+## images
 
 ##### Display a list of images
 ```
@@ -15,7 +16,7 @@ $ docker pull <image-name>
 ```
 $ docker image rm <image-name or image-id>
 ```
-
+## containers
 ##### Create container
 ```
 $ docker create <base-image>
@@ -63,9 +64,9 @@ $ docker create -e <environment-variable>
 ```
 ###### Example 
 ```
-$ docker create -p27017:27017 --name monguito -e MONGO_INITDB_ROOT_USERNAME=roiner -e MONGO_INITDB_ROOT_PASSWORD=camacho
+$ docker create -p27017:27017 --name monguito -e MONGO_INITDB_ROOT_USERNAME=roiner -e MONGO_INITDB_ROOT_PASSWORD=camacho mongo
 ```
-
+## others
 ##### Logs
 ```
 $ docker logs <container-name or container-id>
