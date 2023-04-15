@@ -20,6 +20,9 @@ services:
   miapp:
     # command to build my app
     build: .
+      # FOR DEVELOPMENT
+      context: .
+      dockerfile: Dockerfile.dev
     # mapping ports
     ports:
       # host port and container port
@@ -28,6 +31,10 @@ services:
     # container name to map and used our service --> miapp
     links:
       - monguito
+    # FOR DEVELOPMENT
+    volumes:
+      # route to mount into the volume : destiny route into the container
+      - .:/home/app
   mongoapp:
     # based image
     image: mongo
@@ -46,6 +53,15 @@ services:
 ##### Run all the containers
 ```
 $ docker compose up
+```
+
+##### Run specific `docker compose file`
+```
+$ docker compose -f <docker-compose file name> up
+```
+###### Example
+```
+$ docker compose -f docker-compose-dev.yml up
 ```
 
 ##### Run server without block the console
