@@ -3,8 +3,43 @@
 ---
 
 ### docker | Docker compose
+---
+
+##### Details
+document name should be: `docker-compose.yml`
 
 ---
+## Example
+```
+# version number
+version: "3.9"
+
+# containers to use
+services:
+  # list of applications
+  miapp:
+    # command to build my app
+    build: .
+    # mapping ports
+    ports:
+      # host port and container port
+      - "3000:3000"
+      - "3001:3001"
+    # container name to map and used our service --> miapp
+    links:
+      - monguito
+  mongoapp:
+    # based image
+    image: mongo
+    ports:
+      # host port and container port
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME=roiner
+      MONGO_INITDB_ROOT_PASSWORD=camacho
+```
+---
+## Comands
 
 #### Run containers
 

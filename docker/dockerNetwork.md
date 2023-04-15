@@ -16,3 +16,11 @@ $ docker network ls
 ```
 $ docker network rm <network-name>
 ```
+##### Create contianer with network
+```
+$ docker create --network <network-name>
+```
+###### Example
+```
+$ docker create --network mired
+```
