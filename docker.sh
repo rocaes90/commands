@@ -30,6 +30,8 @@ docker exec -it CONTAINER_ID /bin/bash # run interactive terminal
 
 docker run <image-id> # run container | find image, create container, start container
 docker run -d <image-id> # run container detached mode
+docker run -p <host-port>:<container-port> # run container mapping ports
+docker run -p 3000:3000 # run container mapping ports | example
 
 ### NETWORK
 docker network ls # display a list of networks
