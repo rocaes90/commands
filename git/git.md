@@ -5,7 +5,14 @@
 #### git | Frecuent commands
 
 ---
-
+##### Setup branch
+```
+$ git remote add origin <branch-url>
+```
+###### Example
+```
+$ git remote add origin git@github.com:rocaes90/my-github-actions.git
+```
 ##### Rename a branch
 ```
 $ git branch -m <old-name> <new-name>
