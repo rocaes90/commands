@@ -1,0 +1,44 @@
+##############################
+# DOCKER COMPOSE
+##############################
+
+# version number
+version: "3.9"
+
+# containers to use
+services:
+  # list of applications
+  miapp:
+    # command to build my app
+    build: .
+      # FOR DEVELOPMENT
+      # context: .
+      # dockerfile: Dockerfile.dev
+    # mapping ports
+    ports:
+    # host port and container port
+      - "3000:3000"
+      - "3001:3001"
+    # container name to map and used our service --> miapp
+    links:
+      - monguito
+    # FOR DEVELOPMENT
+    volumes:
+      # route to mount into the volume : destiny route into the container
+      - .:/home/app
+    # list of volumes that this container will use
+    volumes:
+      # volume name: route into the container where the volume will be mount
+      - mongo-data: /data/db
+      # mongo -> /data/db
+      # mysql -> /var/lib/mysql
+      # postgres -> /var/lib/postgresql/data
+  mongoapp:
+    # based image
+    image: mongo
+    ports:
+      # host port and container port
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME=roiner
+      MONGO_INITDB_ROOT_PASSWORD=camacho

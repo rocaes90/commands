@@ -37,3 +37,21 @@ docker network create <network-name> # create network
 docker create --network <network-name> # create container with network
 docker create --network mired # create container with network | example
 docker network rm <network-name> # delete network
+
+### COMPOSE
+docker compose up # run all containers
+docker compose -f <docker-compose file name> up # run specific docker compose file
+docker compose -f docker-compose-dev.yml up # run specific docker compose file
+docker compose up -d # run server without block the console
+docker compose up <containers names> # run server with specific contianer
+docker compose up laika-app db # run server with specific contianer
+docker compose up --build # rebuild all containers
+docker compose up --build <containers names> # rebuild container by name
+docker compose up --build laika-app # rebuild container by name
+docker compose down # remove containers from docker
+docker rmi $(docker images -a -q) # remove all images from docker
+docker system prune # clean unnecessary images from docker
+docker compose run <app-name> python3 manage.py shell # run python shell in docker
+
+docker build -t <image-name>:<label> <route-where-you-are> # create container based on Dockerfile
+docker build -t miapp:1 . # create container based on Dockerfile | example
