@@ -22,17 +22,17 @@ services:
     # container name to map and used our service --> miapp
     links:
       - monguito
-    # FOR DEVELOPMENT
+    # FOR-DEVELOPMENT
     volumes:
       # route to mount into the volume : destiny route into the container
       - .:/home/app
     # list of volumes that this container will use
-    volumes:
-      # volume name: route into the container where the volume will be mount
-      - mongo-data: /data/db
-      # mongo -> /data/db
-      # mysql -> /var/lib/mysql
-      # postgres -> /var/lib/postgresql/data
+    # FOR-DEVELOPMENT volumes:
+    # FOR-DEVELOPMENT   # volume name: route into the container where the volume will be mount
+    # FOR-DEVELOPMENT   - mongo-data: /data/db
+    # FOR-DEVELOPMENT   # mongo -> /data/db
+    # FOR-DEVELOPMENT   # mysql -> /var/lib/mysql
+    # FOR-DEVELOPMENT   # postgres -> /var/lib/postgresql/data
   mongoapp:
     # based image
     image: mongo
