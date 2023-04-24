@@ -7,6 +7,9 @@ docker images # display a list of images
 docker pull <image-name> # download image
 docker image rm <image-name or image-id> # delete image
 
+docker build -t <image-name>:<label> <route-where-you-are> # create container based on Dockerfile
+docker build -t miapp:1 . # create container based on Dockerfile | example
+
 ### CONTAINERS
 docker ps # display a list of active containers
 docker ps -a # display a list of containers
@@ -55,5 +58,3 @@ docker rmi $(docker images -a -q) # remove all images from docker
 docker system prune # clean unnecessary images from docker
 docker compose run <app-name> python3 manage.py shell # run python shell in docker
 
-docker build -t <image-name>:<label> <route-where-you-are> # create container based on Dockerfile
-docker build -t miapp:1 . # create container based on Dockerfile | example
